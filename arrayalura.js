@@ -53,3 +53,30 @@ const descricao = `${produto.nome} por apenas R$ ${produto.preco}`
 
 console.log(descricao) // Grampo por apenas R$ 34.6
 
+// obj //
+let obj = {
+nome: "FLAYER PENTECOSTE",
+end: "Pq Sub",
+age: function(year) {
+return 2021 -year;
+},
+city: "São Paulo",
+country: "Brasil",
+
+};
+console.log(obj.end);
+console.log(obj.age(1980));// pode por só (obj)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

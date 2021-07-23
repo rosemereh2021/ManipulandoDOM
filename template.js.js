@@ -11,7 +11,6 @@ console.log(mensagem) // O sistema foi iniciado as 11:22:59
   console.log(str.length); // 23
   console.log(typeof str);// string
 
-
 // objetos com $ {}
   let firstName = 'John',
   lastName = 'Doe';
@@ -24,7 +23,6 @@ let price = 8.99,
 var netPrice = `Net Price:$${(price * (1 + tax)).toFixed(2)}`;
 console.log(netPrice); // netPrice:$9.89
 
-
 // devpleno template string
 function tag(strings, ...values) {
     console.log(strings, values)
@@ -33,7 +31,6 @@ function tag(strings, ...values) {
   tag`Hello ${'world'}`; // Hello world
   console.log(str) // Olá $ {10} mundo!
   
-
   // EXEMPLO
   const str1 = `teste`
   const strMultiLinha = 'linha1 \n linha2 \n linha3'
@@ -46,7 +43,6 @@ let idNumber = 4784;
 let end = "Rua dos Cariocas, nº 1244";
  // ${variavel}
 console.log(`Meu name é ${name} e eu sou um Baita ${profissão}  ${idNumber} itapevi sp ${end}`);
-
 
     let = document.querySelector(".teste")
     .textContent = " Sabedoria Vem de DEUS! ";
