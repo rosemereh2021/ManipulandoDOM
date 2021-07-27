@@ -23,5 +23,31 @@ console.log(input);
 // Criando element array e forEach...
 //metodos precisos com [key, value]
 
+// code cursos
+class Fone {
+constructor() {
+this.cor = " Blue "
+this.marca = " Apple "
 
+}
 
+   audio() {
+        console.log("audio");
+        return "Som"
+        
+    };
+        
+    bluthth() {
+        console.log("Estereo");
+        return "Saida 5.1"
+        
+    };
+    
+};
+
+let object = new Fone();
+console.log(object.cor);
+console.log(object.audio());
+console.log(object.bluthth());
+console.log(object.marca);
+    

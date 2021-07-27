@@ -53,6 +53,8 @@ const descricao = `${produto.nome} por apenas R$ ${produto.preco}`
 
 console.log(descricao) // Grampo por apenas R$ 34.6
 
+
+/*
 // obj //
 let obj = {
 nome: "FLAYER PENTECOSTE",
@@ -67,16 +69,80 @@ country: "Brasil",
 console.log(obj.end);
 console.log(obj.age(1980));// pode por só (obj)
 
+// hcode cursos
+class Cell {
+constructor() {
+this.color = "Red";
+
+}
+
+peso() {
+  console.log("100g");
+  return "Muito peso"
+  , "testando",
+   "Node JS", "Teste";
+}
+
+};
+
+let objeto = new Cell();
+console.log(objeto.color);
+console.log(objeto.peso());
+*/
+// Rafaela Alura top
+class Pessoa {
+constructor(nome, sobrenome, endereco) {
+this.nome = nome
+this.sobrenome = sobrenome
+this.endereco = endereco
+
+}
+cargo() {
+console.log("Encarregado");
+return "Servo de DEUS!"
 
 
+}
 
 
+};
+
+  let antonio = new Pessoa("Antonio",
+ "SILVA",
+"Rua dos Cariocas");
+console.log(antonio);
+console.log(antonio.cargo());
 
 
+let Person ={
+Nome: "Rosemeire",
+Idade: "49 Anos",
+feliz: true,
+Pets: ["cachorro", "gato", "gata"],
+
+Carros: {
+  camaro: {
+    Motor: 2.1,
+    Freios: "Abs autmatic",
+    Ano: 2020,
+placa: 123456,
+cor: " Verde",
+
+  },
+
+uno: {
+  Combustivel: "Flex Power",
+  Marca: "Fiat",
+  Modelo: "Esport 2.2",
+placa: "231456",
+cor: "Branco",
+
+},
 
 
+}
 
-
-
-
+}; // final da função.
+console.log(Person.Carros.camaro.Ano);
+console.log(Person.Idade);
 

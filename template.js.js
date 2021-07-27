@@ -45,6 +45,10 @@ let end = "Rua dos Cariocas, nº 1244";
 console.log(`Meu name é ${name} e eu sou um Baita ${profissão}  ${idNumber} itapevi sp ${end}`);
 
     let = document.querySelector(".teste")
-    .textContent = " Sabedoria Vem de DEUS! ";
+    .textContent = " Sabedoria Vem de DEUS!!! ";
 
 
+   let sumone = (v1, v2) => {
+     return v1 + v2;
+   }
+console.log(sumone(20,23));
