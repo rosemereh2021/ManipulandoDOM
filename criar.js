@@ -42,7 +42,8 @@ this.marca = " Apple "
         return "Saida 5.1"
         
     };
-    
+
+
 };
 
 let object = new Fone();
@@ -51,3 +52,23 @@ console.log(object.audio());
 console.log(object.bluthth());
 console.log(object.marca);
     
+
+const next = () => "Maxton Color";
+console.log(next());
+
+const nextt = ( Name, LastName, Numberr ) =>` Hello Brasil ${Name} ${LastName} ${Numberr}`;
+console.log(nextt("Flayer", "Marketing", 1253647855));
+
+// objeto arrow sem new obj
+    const getKaka = () => {
+const data = {}
+data.Name = "Flayer2000";
+data.LastName = "Markeing";
+data.Number = 2000
+data.End = "Mina Gerais";
+
+    return data
+};
+console.log(getKaka());
+
+

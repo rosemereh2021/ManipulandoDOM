@@ -101,9 +101,7 @@ cargo() {
 console.log("Encarregado");
 return "Servo de DEUS!"
 
-
 }
-
 
 };
 
@@ -146,3 +144,30 @@ cor: "Branco",
 console.log(Person.Carros.camaro.Ano);
 console.log(Person.Idade);
 
+
+
+// classes /class / constructor(param, param2) {}
+class User {
+constructor(name, email, fone) {
+this.name = name;
+this.email = email;
+this.fone = fone;
+
+}
+ functioncolor() {
+console.log("Yellow")
+return "BRA/Color lindo(a)"
+}
+
+functionestado() {
+  console.log("São Paulo")
+  return "Governador(a)"
+  }
+
+};
+
+const user = new User("Flayer", "flayer2011@gmail.com", "Fone 99995588");
+const user2 = new User("Roger", "oi@rogermelo.com.br");
+console.log(user, user2);
+console.log(user2.functioncolor () );
+console.log(user.functionestado());
